@@ -1,0 +1,3 @@
+[submodule "SqlUtilities"]
+	path = SqlUtilities
+	url = https://github.com/dinatale2/SqlUtilities.git

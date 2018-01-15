@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL_QueryRunner", "SQL_QueryRunner\SQL_QueryRunner.csproj", "{B622C4F4-97D1-4634-9194-997BFF1C8476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlUtilities", "SqlUtilities\Utilities\SqlUtilities.csproj", "{D09B1F9E-E075-4827-89A0-72A7C8BD541E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Debug|x86.ActiveCfg = Debug|x86
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Debug|x86.Build.0 = Debug|x86
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Release|x86.ActiveCfg = Release|x86
+		{B622C4F4-97D1-4634-9194-997BFF1C8476}.Release|x86.Build.0 = Release|x86
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Debug|x86.ActiveCfg = Debug|x86
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Debug|x86.Build.0 = Debug|x86
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Release|x86.ActiveCfg = Release|x86
+		{D09B1F9E-E075-4827-89A0-72A7C8BD541E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
