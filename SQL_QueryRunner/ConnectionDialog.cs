@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using SqlUtilities;
-using ADODB;
 
 namespace SQL_QueryRunner
 {
@@ -24,13 +17,6 @@ namespace SQL_QueryRunner
     public ConnectionDialog()
     {
       InitializeComponent();
-
-      // temporary for testing purposes, saves typing
-      tb_timeout.Text = "60";
-      tb_address.Text = "localhost\\sqlexpress";
-      tb_database.Text = "Test";
-      tb_password.Text = "omnom";
-      tb_username.Text = "jdinatale";
     }
 
     private void btn_OK_Click(object sender, EventArgs e)

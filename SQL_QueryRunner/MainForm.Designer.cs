@@ -194,15 +194,12 @@
             // 
             // tabQueries
             // 
-            this.tabQueries.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabQueries.Location = new System.Drawing.Point(12, 27);
+            this.tabQueries.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabQueries.Location = new System.Drawing.Point(0, 24);
             this.tabQueries.Name = "tabQueries";
             this.tabQueries.SelectedIndex = 0;
-            this.tabQueries.Size = new System.Drawing.Size(726, 652);
-            this.tabQueries.TabIndex = 6;
-            this.tabQueries.Selected += new System.Windows.Forms.TabControlEventHandler(this.QueryTabSelected);
+            this.tabQueries.Size = new System.Drawing.Size(750, 667);
+            this.tabQueries.TabIndex = 4;
             // 
             // MainForm
             // 
@@ -237,9 +234,9 @@
     private System.Windows.Forms.ToolStripMenuItem connectToolStripMenuItem;
     private System.Windows.Forms.ToolStripMenuItem runSQLToolStripMenuItem;
     private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.TabControl tabQueries;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.TabControl tabQueries;
     }
 }
 
