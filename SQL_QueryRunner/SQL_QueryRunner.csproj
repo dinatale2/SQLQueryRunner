@@ -71,6 +71,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Win32Lib">
+      <HintPath>..\CustomControls\Win32Lib\Win32Lib\bin\Debug\Win32Lib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionDialog.cs">
@@ -136,6 +139,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CustomControls\CustomControls\CustomControls.csproj">
+      <Project>{7B707984-46BB-4D6C-A856-82A250BC4378}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SqlUtilities\Utilities\SqlUtilities.csproj">
       <Project>{d09b1f9e-e075-4827-89a0-72a7c8bd541e}</Project>
       <Name>SqlUtilities</Name>

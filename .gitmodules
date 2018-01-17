@@ -1,3 +1,6 @@
 [submodule "SqlUtilities"]
 	path = SqlUtilities
 	url = https://github.com/dinatale2/SqlUtilities.git
+[submodule "CustomControls"]
+	path = CustomControls
+	url = https://github.com/dinatale2/CustomControls.git
